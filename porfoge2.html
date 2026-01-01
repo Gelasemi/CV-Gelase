@@ -1,0 +1,2074 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <!-- Meta Tags Optimisées -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Scientist Senior & Analyste Financier avec 15+ ans d'expérience en IA, Machine Learning et stratégie financière. Expert en Python, SQL, Deep Learning et modèles prédictifs.">
+    <meta name="keywords" content="Data Science, IA, Machine Learning, Analyste Financier, Python, SQL, Deep Learning, Madagascar, Freelance, Intelligence Artificielle">
+    <meta name="author" content="Dauphin Gelase Michelot MANANTENASOA">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gelasemi.com/">
+    <meta property="og:title" content="Dauphin Gelase Michelot - Data Scientist Senior & Analyste Financier">
+    <meta property="og:description" content="Expert en IA, Machine Learning et stratégie financière avec 15+ ans d'expérience. Solutions data science pour clients internationaux.">
+    <meta property="og:image" content="https://drive.google.com/file/d/1rc_XmVlhZ4mLRf4F6ClvhkOTY7W6aI2e/view?usp=sharing">
+    
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gelasemi.com/">
+    <meta property="twitter:title" content="Dauphin Gelase Michelot - Data Scientist Senior & Analyste Financier">
+    <meta property="twitter:description" content="Expert en IA, Machine Learning et stratégie financière avec 15+ ans d'expérience.">
+    <meta property="twitter:image" content="https://drive.google.com/file/d/1rc_XmVlhZ4mLRf4F6ClvhkOTY7W6aI2e/view?usp=sharing">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://gelasemi.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/favicon.png">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        // Thème inspiré de Jean Odon
+                        primary: '#2563eb', // Blue plus vif
+                        secondary: '#7c3aed', // Violet
+                        accent: '#0891b2', // Cyan
+                        dark: '#0f172a', // Navy blue foncé
+                        'dark-lighter': '#1e293b',
+                        light: '#f8fafc',
+                        'card-bg': 'rgba(30, 41, 59, 0.5)',
+                        'card-border': 'rgba(148, 163, 184, 0.1)'
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 3s ease-in-out infinite',
+                        'gradient': 'gradient 8s ease infinite',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                        'slide-in': 'slideIn 0.6s ease-out',
+                        'fade-in': 'fadeIn 0.8s ease-out',
+                        'shimmer': 'shimmer 2s infinite',
+                        'blob': 'blob 10s ease-in-out infinite',
+                        'progress-fill': 'progressFill 1.5s ease-out forwards',
+                        'typewriter': 'typewriter 3s steps(40) forwards',
+                        'bounce-slow': 'bounce 2s infinite',
+                        'glow': 'glow 2s ease-in-out infinite alternate'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        gradient: {
+                            '0%, 100%': { backgroundPosition: '0% 50%' },
+                            '50%': { backgroundPosition: '100% 50%' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        slideIn: {
+                            '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                            '100%': { transform: 'translateX(0)', opacity: '1' },
+                        },
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        shimmer: {
+                            '0%': { backgroundPosition: '-200% 0' },
+                            '100%': { backgroundPosition: '200% 0' },
+                        },
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
+                        },
+                        progressFill: {
+                            '0%': { width: '0%' },
+                            '100%': { width: 'var(--progress-width)' },
+                        },
+                        typewriter: {
+                            '0%': { width: '0' },
+                            '100%': { width: '100%' }
+                        },
+                        glow: {
+                            'from': { boxShadow: '0 0 10px #2563eb, 0 0 20px #2563eb' },
+                            'to': { boxShadow: '0 0 15px #3b82f6, 0 0 25px #3b82f6' }
+                        }
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <title>Dauphin Gelase Michelot - Data Scientist Senior & Financial Analyst</title>
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dauphin Gelase Michelot MANANTENASOA",
+        "jobTitle": "Data Scientist Senior / Data Analyst & Financial Analyst",
+        "description": "Expert en IA, Machine Learning et stratégie financière avec 15+ ans d'expérience",
+        "url": "https://gelasemi.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Antananarivo",
+            "addressCountry": "MG"
+        },
+        "email": "gelasemi@gmail.com",
+        "telephone": "+261 38 58 586 96",
+        "sameAs": [
+            "https://linkedin.com/in/michelot",
+            "https://github.com/Gelasemi"
+        ],
+        "knowsAbout": [
+            "Data Science",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Financial Analysis",
+            "Python Programming",
+            "SQL",
+            "Deep Learning"
+        ]
+    }
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #7c3aed;
+            --accent: #0891b2;
+            --dark: #0f172a;
+            --light: #f8fafc;
+        }
+        
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            overflow-x: hidden;
+        }
+        
+        /* Glassmorphism effect - Thème Jean Odon */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .glass-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(37, 99, 235, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Gradient text - Style Jean Odon */
+        .gradient-text {
+            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-size: 200% auto;
+            animation: gradient 3s ease infinite;
+        }
+        
+        /* Navigation style */
+        .nav-link {
+            position: relative;
+            color: #cbd5e1;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            padding: 8px 0;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .nav-link:hover {
+            color: white;
+        }
+        
+        /* Language selector */
+        .language-selector {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            color: #cbd5e1;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 60px;
+        }
+        
+        .language-selector:hover {
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .language-selector option {
+            background: #1e293b;
+            color: white;
+        }
+        
+        /* Buttons style Jean Odon */
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 10px;
+            border: none;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 10px;
+            border: 2px solid var(--primary);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+        
+        /* Section spacing */
+        section {
+            padding: 100px 0;
+            position: relative;
+        }
+        
+        @media (max-width: 768px) {
+            section {
+                padding: 60px 0;
+            }
+        }
+        
+        /* Stats cards */
+        .stat-card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .stat-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        
+        /* Timeline style */
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 17px;
+            width: 2px;
+            height: calc(100% + 23px);
+            background: rgba(148, 163, 184, 0.2);
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        /* Skill bars */
+        .skill-progress {
+            height: 10px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            width: 0;
+            transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .skill-progress.animated {
+            width: var(--progress-width);
+        }
+        
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            animation: shimmer 2s infinite;
+        }
+        
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin: 4px;
+        }
+        
+        .badge-primary {
+            background: rgba(37, 99, 235, 0.15);
+            color: #93c5fd;
+            border: 1px solid rgba(37, 99, 235, 0.3);
+        }
+        
+        .badge-secondary {
+            background: rgba(124, 58, 237, 0.15);
+            color: #c4b5fd;
+            border: 1px solid rgba(124, 58, 237, 0.3);
+        }
+        
+        .badge-accent {
+            background: rgba(8, 145, 178, 0.15);
+            color: #5eead4;
+            border: 1px solid rgba(8, 145, 178, 0.3);
+        }
+        
+        /* Feature icons */
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            font-size: 24px;
+            color: white;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-icon-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+        }
+        
+        .feature-icon-secondary {
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+        }
+        
+        .feature-icon-accent {
+            background: linear-gradient(135deg, var(--accent), var(--primary));
+        }
+        
+        /* Project cards */
+        .project-card {
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover .project-image {
+            transform: scale(1.05);
+        }
+        
+        .project-image {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 12px 12px 0 0;
+            transition: transform 0.5s ease;
+        }
+        
+        /* Form styling */
+        .form-input {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 10px;
+            padding: 14px;
+            color: white;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        /* Animation classes */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Hero section */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
+            z-index: -1;
+        }
+        
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(30, 41, 59, 0.5);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 5px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+        }
+    </style>
+</head>
+<body class="relative">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 py-4 px-4 md:px-8 transition-all duration-300 bg-dark/80 backdrop-blur-lg border-b border-gray-800">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="#home" class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg">
+                        <i class="fas fa-brain text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="text-white font-bold text-xl">GELASE MICHELOT</span>
+                        <div class="text-xs text-gray-400">Data Scientist & Financial Analyst</div>
+                    </div>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link" data-key="nav.home">Accueil</a>
+                    <a href="#about" class="nav-link" data-key="nav.about">À propos</a>
+                    <a href="#experience" class="nav-link" data-key="nav.experience">Expérience</a>
+                    <a href="#projects" class="nav-link" data-key="nav.projects">Projets</a>
+                    <a href="#skills" class="nav-link" data-key="nav.skills">Compétences</a>
+                    
+                    <!-- Language Selector -->
+                    <select id="languageSelector" class="language-selector">
+                        <option value="fr">🇫🇷 FR</option>
+                        <option value="en">🇬🇧 EN</option>
+                    </select>
+                    
+                    <a href="#contact" class="btn-primary" data-key="nav.contact">Contact</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <button id="mobileMenuBtn" class="md:hidden text-gray-300 hover:text-white">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobileMenu" class="md:hidden mt-4 hidden animate-slide-down">
+                <div class="flex flex-col space-y-4 bg-dark-lighter/80 backdrop-blur-lg rounded-xl p-6">
+                    <a href="#home" class="nav-link text-lg" data-key="nav.home">Accueil</a>
+                    <a href="#about" class="nav-link text-lg" data-key="nav.about">À propos</a>
+                    <a href="#experience" class="nav-link text-lg" data-key="nav.experience">Expérience</a>
+                    <a href="#projects" class="nav-link text-lg" data-key="nav.projects">Projets</a>
+                    <a href="#skills" class="nav-link text-lg" data-key="nav.skills">Compétences</a>
+                    
+                    <!-- Language Selector for Mobile -->
+                    <select id="languageSelectorMobile" class="language-selector w-full mt-2">
+                        <option value="fr">🇫🇷 Français</option>
+                        <option value="en">🇬🇧 English</option>
+                    </select>
+                    
+                    <a href="#contact" class="btn-primary w-full text-center" data-key="nav.contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section pt-16">
+        <div class="hero-bg"></div>
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Column -->
+                <div class="animate-on-scroll">
+                    <div class="inline-flex items-center glass-card px-5 py-2 rounded-full mb-6">
+                        <i class="fas fa-star mr-2 text-primary"></i>
+                        <span class="text-sm font-medium" data-key="hero.title">Data Scientist Senior & Financial Analyst</span>
+                    </div>
+                    
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                        <span class="block text-white">Dauphin Gelase</span>
+                        <span class="gradient-text">Michelot</span>
+                    </h1>
+                    
+                    <div class="text-2xl md:text-3xl mb-8 h-12">
+                        <span id="typingText" class="text-gray-300 font-semibold"></span>
+                    </div>
+                    
+                    <p class="text-gray-400 text-lg mb-10 leading-relaxed" data-key="hero.description">
+                        15+ ans d'expérience combinant <span class="text-primary font-semibold">Data Science avancée</span> et 
+                        <span class="text-secondary font-semibold">Stratégie Financière</span>. Expert en traduction de problèmes 
+                        métiers complexes en solutions Python, SQL et Machine Learning évolutives.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4 mb-12">
+                        <a href="#contact" class="btn-primary" data-key="hero.contactBtn">
+                            <i class="fas fa-paper-plane mr-3"></i>
+                            Me contacter
+                        </a>
+                        <a href="https://github.com/Gelasemi" target="_blank" class="btn-secondary" data-key="hero.githubBtn">
+                            <i class="fab fa-github mr-3"></i>
+                            Voir GitHub
+                        </a>
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="stat-card">
+                            <div class="stat-number">15+</div>
+                            <div class="text-gray-400" data-key="stats.years">Années d'expérience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">50+</div>
+                            <div class="text-gray-400" data-key="stats.solutions">Solutions IA/ML</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">$1.2B+</div>
+                            <div class="text-gray-400" data-key="stats.value">Valeur découverte</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="text-gray-400" data-key="stats.automation">Automatisation financière</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column -->
+                <div class="animate-on-scroll">
+                    <div class="glass-card p-8">
+                        <div class="relative">
+                            <div class="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-2xl blur opacity-30"></div>
+                            <div class="relative bg-dark-lighter rounded-2xl p-8">
+                                <div class="text-center">
+                                    <!-- Photo de profil -->
+                                    <div class="https://drive.google.com/file/d/1rc_XmVlhZ4mLRf4F6ClvhkOTY7W6aI2e/view?usp=sharing">
+                                        <!-- Remplacez 'image/profile.jpg' par le chemin de votre photo -->
+                                        <img src="C:\Users\hp\Desktop\ID_n.jpg" alt="Dauphin Gelase Michelot" class="w-full h-full object-cover">
+                                    </div>
+                                    <h3 class="text-2xl font-bold mb-3" data-key="profile.available">Disponible pour missions</h3>
+                                    <p class="text-gray-400 mb-6">Remote Worldwide | Madagascar</p>
+                                    <div class="flex justify-center space-x-6">
+                                        <a href="https://linkedin.com/in/michelot" target="_blank" 
+                                           class="w-12 h-12 glass-card rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                            <i class="fab fa-linkedin text-primary text-xl"></i>
+                                        </a>
+                                        <a href="https://github.com/Gelasemi" target="_blank"
+                                           class="w-12 h-12 glass-card rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                            <i class="fab fa-github text-secondary text-xl"></i>
+                                        </a>
+                                        <a href="mailto:gelasemi@gmail.com"
+                                           class="w-12 h-12 glass-card rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                            <i class="fas fa-envelope text-accent text-xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-dark-lighter/50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-key="about.title">
+                    À propos de
+                    <span class="gradient-text">moi</span>
+                </h2>
+                <p class="text-gray-400 max-w-3xl mx-auto text-lg" data-key="about.subtitle">
+                    Expert en Data Science et Analyse Financière avec une double compétence technique et stratégique
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Core Competencies -->
+                <div class="glass-card p-8">
+                    <div class="feature-icon feature-icon-primary">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-key="about.dataScience">Data Science & IA</h3>
+                    <div class="space-y-3">
+                        <span class="badge badge-primary" data-key="skills.ml">Machine Learning</span>
+                        <span class="badge badge-primary" data-key="skills.dl">Deep Learning</span>
+                        <span class="badge badge-primary" data-key="skills.nlp">NLP & LLMs</span>
+                        <span class="badge badge-primary" data-key="skills.cv">Computer Vision</span>
+                        <span class="badge badge-primary" data-key="skills.genai">Generative AI</span>
+                    </div>
+                </div>
+                
+                <div class="glass-card p-8">
+                    <div class="feature-icon feature-icon-secondary">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-key="about.programming">Programmation</h3>
+                    <div class="space-y-3">
+                        <span class="badge badge-secondary" data-key="skills.python">Python (Expert)</span>
+                        <span class="badge badge-secondary" data-key="skills.sql">SQL (Avancé)</span>
+                        <span class="badge badge-secondary" data-key="skills.r">R (Intermédiaire)</span>
+                        <span class="badge badge-secondary" data-key="skills.docker">Docker & Git</span>
+                        <span class="badge badge-secondary" data-key="skills.api">REST APIs</span>
+                    </div>
+                </div>
+                
+                <div class="glass-card p-8">
+                    <div class="feature-icon feature-icon-accent">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-key="about.finance">Finance & Gestion</h3>
+                    <div class="space-y-3">
+                        <span class="badge badge-accent" data-key="skills.capex">CAPEX Budgeting</span>
+                        <span class="badge badge-accent" data-key="skills.roi">ROI Analysis</span>
+                        <span class="badge badge-accent" data-key="skills.econometrics">Économétrie</span>
+                        <span class="badge badge-accent" data-key="skills.audit">Audit & Compliance</span>
+                        <span class="badge badge-accent" data-key="skills.erp">ERP Sage X3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-key="experience.title">
+                    Expérience
+                    <span class="gradient-text">Professionnelle</span>
+                </h2>
+                <p class="text-gray-400 max-w-3xl mx-auto text-lg" data-key="experience.subtitle">
+                    15+ ans d'expertise en Data Science et Stratégie Financière
+                </p>
+            </div>
+            
+            <div class="max-w-5xl mx-auto">
+                <!-- Current Role -->
+                <div class="glass-card p-8 mb-12">
+                    <div class="flex flex-wrap justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2" data-key="experience.currentRole">Freelance Data Scientist & AI/Machine Learning Engineer</h3>
+                            <p class="text-primary font-semibold text-lg">Remote | 2019 – Présent</p>
+                        </div>
+                        <span class="badge badge-primary mt-2 lg:mt-0" data-key="experience.current">Actuel</span>
+                    </div>
+                    <p class="text-gray-400 mb-6 text-lg" data-key="experience.currentDesc">
+                        Construction de solutions data science de bout en bout pour clients internationaux dans l'énergie, 
+                        l'exploitation minière et la logistique.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-4"></i>
+                            <span class="text-gray-300" data-key="experience.achievement1">Conception et déploiement de 50+ solutions IA/ML incluant prédiction de trajectoires de cyclones</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-4"></i>
+                            <span class="text-gray-300" data-key="experience.achievement2">Développement d'une cartographie minière par IA révélant $1.247B de ressources non déclarées</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-4"></i>
+                            <span class="text-gray-300" data-key="experience.achievement3">Création de chatbots médicaux hors-ligne utilisant des bases de médecine traditionnelle</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-4"></i>
+                            <span class="text-gray-300" data-key="experience.achievement4">Automatisation financière réduisant l'erreur manuelle de 100%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline -->
+                <div class="relative">
+                    <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-secondary hidden md:block"></div>
+                    
+                    <div class="space-y-12 ml-0 md:ml-16">
+                        <!-- Timeline Item 1 -->
+                        <div class="relative">
+                            <div class="absolute -left-8 top-6 w-4 h-4 bg-primary rounded-full hidden md:block"></div>
+                            <div class="glass-card p-6">
+                                <h4 class="text-xl font-bold mb-2" data-key="experience.role1">Gérant Associé</h4>
+                                <p class="text-secondary font-semibold mb-3">Feno Boat Design, Madagascar | 2021 – Présent</p>
+                                <p class="text-gray-400" data-key="experience.role1Desc">Direction du développement stratégique et supervision financière.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 2 -->
+                        <div class="relative">
+                            <div class="absolute -left-8 top-6 w-4 h-4 bg-primary rounded-full hidden md:block"></div>
+                            <div class="glass-card p-6">
+                                <h4 class="text-xl font-bold mb-2" data-key="experience.role2">Coordinateur Subventions & Contrats</h4>
+                                <p class="text-secondary font-semibold mb-3">ONG CI Madagascar | 2019 – 2021</p>
+                                <p class="text-gray-400" data-key="experience.role2Desc">Gestion de portefeuilles de financement multimillionnaires et conformité stricte.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 3 -->
+                        <div class="relative">
+                            <div class="absolute -left-8 top-6 w-4 h-4 bg-primary rounded-full hidden md:block"></div>
+                            <div class="glass-card p-6">
+                                <h4 class="text-xl font-bold mb-2" data-key="experience.role3">Contrôleur Budgétaire CAPEX</h4>
+                                <p class="text-secondary font-semibold mb-3">Tower Company Madagascar | 2017 – 2019</p>
+                                <p class="text-gray-400" data-key="experience.role3Desc">Supervision des budgets d'investissement et analyse financière.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-dark-lighter/50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-key="projects.title">
+                    Projets
+                    <span class="gradient-text">Clés</span>
+                </h2>
+                <p class="text-gray-400 max-w-3xl mx-auto text-lg" data-key="projects.subtitle">
+                    Réalisations significatives avec impact mesurable
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card glass-card overflow-hidden">
+                    <div class="p-8">
+                        <div class="feature-icon feature-icon-primary mb-6">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4" data-key="projects.project1.title">Cartographie Minière par IA</h3>
+                        <p class="text-gray-400 mb-6" data-key="projects.project1.description">
+                            Utilisation d'imagerie satellite et de données géospatiales pour cartographier 
+                            les ressources minérales avec une valeur estimée à <span class="text-green-400 font-bold">$1.247 milliard</span>.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="badge badge-primary">Satellite Imagery</span>
+                            <span class="badge badge-primary">Geospatial Data</span>
+                            <span class="badge badge-primary">AI & NLP</span>
+                        </div>
+                        <div class="text-gray-500">
+                            <i class="fas fa-users mr-2"></i>
+                            Grandes compagnies minières de Madagascar
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card glass-card overflow-hidden">
+                    <div class="p-8">
+                        <div class="feature-icon feature-icon-secondary mb-6">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4" data-key="projects.project2.title">Prédiction de Cyclones</h3>
+                        <p class="text-gray-400 mb-6" data-key="projects.project2.description">
+                            Développement de modèles de séries temporelles pour prédire la trajectoire et 
+                            l'évaluation des dégâts pour la région de l'océan Indien.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="badge badge-secondary">Time Series</span>
+                            <span class="badge badge-secondary">Predictive Models</span>
+                            <span class="badge badge-secondary">Damage Assessment</span>
+                        </div>
+                        <div class="text-gray-500">
+                            <i class="fas fa-map mr-2"></i>
+                            Bassin de l'océan Indien
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card glass-card overflow-hidden">
+                    <div class="p-8">
+                        <div class="feature-icon feature-icon-accent mb-6">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4" data-key="projects.project3.title">Plateforme de Gestion Énergétique</h3>
+                        <p class="text-gray-400 mb-6" data-key="projects.project3.description">
+                            Création d'un outil de monitoring en temps réel pour la production/consommation d'énergie 
+                            à l'Île de la Réunion utilisant Python et des données IoT.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="badge badge-accent">Python</span>
+                            <span class="badge badge-accent">IoT</span>
+                            <span class="badge badge-accent">Real-time Monitoring</span>
+                        </div>
+                        <div class="text-gray-500">
+                            <i class="fas fa-building mr-2"></i>
+                            EDF Réunion Island
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card glass-card overflow-hidden">
+                    <div class="p-8">
+                        <div class="feature-icon feature-icon-primary mb-6">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4" data-key="projects.project4.title">Projet Industriel Bridgestone</h3>
+                        <p class="text-gray-400 mb-6" data-key="projects.project4.description">
+                            Recherche avec une entreprise canadienne de l'industrie manufacturière de pneumatiques 
+                            visant à minimiser les pertes d'énergie et réduire les émissions de carbone par réutilisation de vapeur.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="badge badge-primary">Industrial AI</span>
+                            <span class="badge badge-primary">Energy Optimization</span>
+                            <span class="badge badge-primary">Carbon Reduction</span>
+                        </div>
+                        <div class="text-gray-500">
+                            <i class="fas fa-industry mr-2"></i>
+                            Bridgestone Canada
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button id="seeAllProjects" class="btn-primary" data-key="projects.allProjectsBtn">
+                    <i class="fas fa-list mr-3"></i>
+                    Voir tous les projets (31+)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Projects Section - Hidden by default -->
+    <section id="all-projects" class="hidden bg-dark-lighter/50">
+        <div class="container mx-auto px-4 py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-key="allProjects.title">
+                    Tous mes
+                    <span class="gradient-text">Projets</span>
+                </h2>
+                <p class="text-gray-400 max-w-3xl mx-auto text-lg" data-key="allProjects.subtitle">
+                    31+ projets en Data Science, Analyse Financière et Développement
+                </p>
+                <button id="backToMainProjects" class="btn-secondary mt-8" data-key="allProjects.backBtn">
+                    <i class="fas fa-arrow-left mr-3"></i>
+                    Retour aux projets principaux
+                </button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="allProjectsGrid">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-key="skills.title">
+                    Compétences
+                    <span class="gradient-text">Détaillées</span>
+                </h2>
+                <p class="text-gray-400 max-w-3xl mx-auto text-lg" data-key="skills.subtitle">
+                    Maîtrise complète des technologies Data Science et outils financiers
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Technical Skills -->
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-bold mb-8" data-key="skills.technical">Langages & Technologies</h3>
+                    <div class="space-y-8">
+                        <div>
+                            <div class="flex justify-between mb-3">
+                                <span class="font-semibold text-lg">Python</span>
+                                <span class="text-primary font-bold text-lg">95%</span>
+                            </div>
+                            <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+                                <div class="skill-progress h-full" data-progress="95"></div>
+                            </div>
+                            <div class="flex flex-wrap gap-2 mt-3">
+                                <span class="badge badge-primary text-sm">Pandas</span>
+                                <span class="badge badge-primary text-sm">Scikit-learn</span>
+                                <span class="badge badge-primary text-sm">TensorFlow</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-3">
+                                <span class="font-semibold text-lg">SQL</span>
+                                <span class="text-primary font-bold text-lg">90%</span>
+                            </div>
+                            <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+                                <div class="skill-progress h-full" data-progress="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-3">
+                                <span class="font-semibold text-lg">R</span>
+                                <span class="text-primary font-bold text-lg">80%</span>
+                            </div>
+                            <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+                                <div class="skill-progress h-full" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Platforms -->
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-bold mb-8" data-key="skills.tools">Outils & Plateformes</h3>
+                    <div class="space-y-8">
+                        <div>
+                            <div class="flex justify-between mb-3">
+                                <span class="font-semibold text-lg">Power BI / Tableau</span>
+                                <span class="text-secondary font-bold text-lg">92%</span>
+                            </div>
+                            <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+                                <div class="skill-progress h-full" data-progress="92"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-3">
+                                <span class="font-semibold text-lg">ERP Sage X3</span>
+                                <span class="text-secondary font-bold text-lg">88%</span>
+                            </div>
+                            <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+                                <div class="skill-progress h-full" data-progress="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-3">
+                                <span class="font-semibold text-lg">Excel Avancé</span>
+                                <span class="text-secondary font-bold text-lg">95%</span>
+                            </div>
+                            <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+                                <div class="skill-progress h-full" data-progress="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark-lighter/50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-key="contact.title">
+                    Contact
+                </h2>
+                <p class="text-gray-400 max-w-3xl mx-auto text-lg" data-key="contact.subtitle">
+                    Discutons de votre projet de Data Science ou d'analyse financière
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <!-- Contact Info -->
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-bold mb-8" data-key="contact.infoTitle">Informations de contact</h3>
+                    
+                    <div class="space-y-6 mb-10">
+                        <div class="flex items-center">
+                            <div class="feature-icon feature-icon-primary mr-6">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1" data-key="contact.email">Email</h4>
+                                <a href="mailto:gelasemi@gmail.com" class="text-gray-400 hover:text-primary transition-colors text-lg">
+                                    gelasemi@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="feature-icon feature-icon-secondary mr-6">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1" data-key="contact.phone">Téléphone</h4>
+                                <a href="tel:+261385858696" class="text-gray-400 hover:text-primary transition-colors text-lg">
+                                    +261 38 58 586 96
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="feature-icon feature-icon-accent mr-6">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1" data-key="contact.location">Localisation</h4>
+                                <p class="text-gray-400 text-lg">Madagascar | Remote Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h4 class="font-bold text-lg mb-6" data-key="contact.links">Liens professionnels</h4>
+                        <div class="flex space-x-6">
+                            <a href="https://linkedin.com/in/michelot" target="_blank" 
+                               class="w-14 h-14 glass-card rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                <i class="fab fa-linkedin text-primary text-2xl"></i>
+                            </a>
+                            <a href="https://github.com/Gelasemi" target="_blank"
+                               class="w-14 h-14 glass-card rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                <i class="fab fa-github text-secondary text-2xl"></i>
+                            </a>
+                            <a href="CVGe26.pdf" download
+                               class="w-14 h-14 glass-card rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                                <i class="fas fa-file-pdf text-accent text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card p-6">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-green-500 rounded-full mr-4 animate-pulse"></div>
+                            <p class="text-gray-400" data-key="contact.available">Disponible pour des missions freelance et projets à temps plein</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-bold mb-8" data-key="contact.formTitle">Envoyer un message</h3>
+                    
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label class="block text-lg font-medium mb-3" data-key="contact.formName">Nom complet</label>
+                            <input type="text" name="name" required 
+                                   class="form-input"
+                                   placeholder="Votre nom" data-key="contact.formNamePlaceholder">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-lg font-medium mb-3" data-key="contact.formEmail">Email</label>
+                            <input type="email" name="email" required 
+                                   class="form-input"
+                                   placeholder="votre@email.com" data-key="contact.formEmailPlaceholder">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-lg font-medium mb-3" data-key="contact.formProjectType">Type de projet</label>
+                            <select name="projectType" class="form-input">
+                                <option value="data-science" data-key="contact.projectType1">Data Science / Machine Learning</option>
+                                <option value="financial-analysis" data-key="contact.projectType2">Analyse Financière</option>
+                                <option value="business-intelligence" data-key="contact.projectType3">Business Intelligence</option>
+                                <option value="consulting" data-key="contact.projectType4">Consulting</option>
+                                <option value="other" data-key="contact.projectType5">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-lg font-medium mb-3" data-key="contact.formMessage">Message</label>
+                            <textarea name="message" rows="5" required 
+                                      class="form-input resize-none"
+                                      placeholder="Décrivez votre projet..." data-key="contact.formMessagePlaceholder"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-full py-4 text-lg" data-key="contact.formSubmit">
+                            <i class="fas fa-paper-plane mr-3"></i>
+                            Envoyer le message
+                        </button>
+                    </form>
+                    
+                    <div id="formMessage" class="mt-6 p-5 rounded-lg hidden text-center"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-card border-t border-gray-800 py-12">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="flex flex-col items-center mb-8">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-brain text-white text-2xl"></i>
+                    </div>
+                    <span class="text-white font-bold text-3xl">GELASE MICHELOT</span>
+                    <div class="text-gray-400 mt-3" data-key="footer.subtitle">Data Scientist Senior & Analyste Financier</div>
+                </div>
+                
+                <p class="text-gray-400 mb-10 max-w-2xl mx-auto text-lg" data-key="footer.description">
+                    Expert en IA, Machine Learning et stratégie financière avec 15+ ans d'expérience. 
+                    Spécialiste en transformation digitale et solutions data-driven.
+                </p>
+                
+                <div class="flex justify-center space-x-8 mb-10">
+                    <a href="https://linkedin.com/in/michelot" target="_blank" 
+                       class="text-gray-400 hover:text-primary transition-colors text-2xl">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Gelasemi" target="_blank" 
+                       class="text-gray-400 hover:text-secondary transition-colors text-2xl">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:gelasemi@gmail.com" 
+                       class="text-gray-400 hover:text-accent transition-colors text-2xl">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                
+                <div class="border-t border-gray-800 pt-8">
+                    <p class="text-gray-500">
+                        &copy; 2024 Dauphin Gelase Michelot MANANTENASOA. Tous droits réservés.
+                    </p>
+                    <p class="text-gray-500 mt-3">
+                        Made with <i class="fas fa-heart text-red-500 mx-1"></i> and <i class="fas fa-code text-primary mx-1"></i> in Madagascar
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 w-14 h-14 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white shadow-lg hover:scale-110 transition-transform hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Library for Scroll Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Translations object
+        const translations = {
+            fr: {
+                // Navigation
+                'nav.home': 'Accueil',
+                'nav.about': 'À propos',
+                'nav.experience': 'Expérience',
+                'nav.projects': 'Projets',
+                'nav.skills': 'Compétences',
+                'nav.contact': 'Contact',
+                
+                // Hero Section
+                'hero.title': 'Data Scientist Senior & Financial Analyst',
+                'hero.description': '15+ ans d\'expérience combinant Data Science avancée et Stratégie Financière. Expert en traduction de problèmes métiers complexes en solutions Python, SQL et Machine Learning évolutives.',
+                'hero.contactBtn': 'Me contacter',
+                'hero.githubBtn': 'Voir GitHub',
+                
+                // Stats
+                'stats.years': 'Années d\'expérience',
+                'stats.solutions': 'Solutions IA/ML',
+                'stats.value': 'Valeur découverte',
+                'stats.automation': 'Automatisation financière',
+                
+                // Profile
+                'profile.available': 'Disponible pour missions',
+                
+                // About Section
+                'about.title': 'À propos de',
+                'about.subtitle': 'Expert en Data Science et Analyse Financière avec une double compétence technique et stratégique',
+                'about.dataScience': 'Data Science & IA',
+                'about.programming': 'Programmation',
+                'about.finance': 'Finance & Gestion',
+                
+                // Skills
+                'skills.ml': 'Machine Learning',
+                'skills.dl': 'Deep Learning',
+                'skills.nlp': 'NLP & LLMs',
+                'skills.cv': 'Computer Vision',
+                'skills.genai': 'Generative AI',
+                'skills.python': 'Python (Expert)',
+                'skills.sql': 'SQL (Avancé)',
+                'skills.r': 'R (Intermédiaire)',
+                'skills.docker': 'Docker & Git',
+                'skills.api': 'REST APIs',
+                'skills.capex': 'CAPEX Budgeting',
+                'skills.roi': 'ROI Analysis',
+                'skills.econometrics': 'Économétrie',
+                'skills.audit': 'Audit & Compliance',
+                'skills.erp': 'ERP Sage X3',
+                
+                // Experience
+                'experience.title': 'Expérience',
+                'experience.subtitle': '15+ ans d\'expertise en Data Science et Stratégie Financière',
+                'experience.currentRole': 'Freelance Data Scientist & AI/Machine Learning Engineer',
+                'experience.current': 'Actuel',
+                'experience.currentDesc': 'Construction de solutions data science de bout en bout pour clients internationaux dans l\'énergie, l\'exploitation minière et la logistique.',
+                'experience.achievement1': 'Conception et déploiement de 50+ solutions IA/ML incluant prédiction de trajectoires de cyclones',
+                'experience.achievement2': 'Développement d\'une cartographie minière par IA révélant $1.247B de ressources non déclarées',
+                'experience.achievement3': 'Création de chatbots médicaux hors-ligne utilisant des bases de médecine traditionnelle',
+                'experience.achievement4': 'Automatisation financière réduisant l\'erreur manuelle de 100%',
+                'experience.role1': 'Gérant Associé',
+                'experience.role1Desc': 'Direction du développement stratégique et supervision financière.',
+                'experience.role2': 'Coordinateur Subventions & Contrats',
+                'experience.role2Desc': 'Gestion de portefeuilles de financement multimillionnaires et conformité stricte.',
+                'experience.role3': 'Contrôleur Budgétaire CAPEX',
+                'experience.role3Desc': 'Supervision des budgets d\'investissement et analyse financière.',
+                
+                // Projects
+                'projects.title': 'Projets',
+                'projects.subtitle': 'Réalisations significatives avec impact mesurable',
+                'projects.project1.title': 'Cartographie Minière par IA',
+                'projects.project1.description': 'Utilisation d\'imagerie satellite et de données géospatiales pour cartographier les ressources minérales avec une valeur estimée à $1.247 milliard.',
+                'projects.project2.title': 'Prédiction de Cyclones',
+                'projects.project2.description': 'Développement de modèles de séries temporelles pour prédire la trajectoire et l\'évaluation des dégâts pour la région de l\'océan Indien.',
+                'projects.project3.title': 'Plateforme de Gestion Énergétique',
+                'projects.project3.description': 'Création d\'un outil de monitoring en temps réel pour la production/consommation d\'énergie à l\'Île de la Réunion utilisant Python et des données IoT.',
+                'projects.project4.title': 'Projet Industriel Bridgestone',
+                'projects.project4.description': 'Recherche avec une entreprise canadienne de l\'industrie manufacturière de pneumatiques visant à minimiser les pertes d\'énergie et réduire les émissions de carbone par réutilisation de vapeur.',
+                'projects.allProjectsBtn': 'Voir tous les projets (31+)',
+                
+                // All Projects
+                'allProjects.title': 'Tous mes',
+                'allProjects.subtitle': '31+ projets en Data Science, Analyse Financière et Développement',
+                'allProjects.backBtn': 'Retour aux projets principaux',
+                
+                // Skills
+                'skills.title': 'Compétences',
+                'skills.subtitle': 'Maîtrise complète des technologies Data Science et outils financiers',
+                'skills.technical': 'Langages & Technologies',
+                'skills.tools': 'Outils & Plateformes',
+                
+                // Contact
+                'contact.title': 'Contact',
+                'contact.subtitle': 'Discutons de votre projet de Data Science ou d\'analyse financière',
+                'contact.infoTitle': 'Informations de contact',
+                'contact.email': 'Email',
+                'contact.phone': 'Téléphone',
+                'contact.location': 'Localisation',
+                'contact.links': 'Liens professionnels',
+                'contact.available': 'Disponible pour des missions freelance et projets à temps plein',
+                'contact.formTitle': 'Envoyer un message',
+                'contact.formName': 'Nom complet',
+                'contact.formNamePlaceholder': 'Votre nom',
+                'contact.formEmail': 'Email',
+                'contact.formEmailPlaceholder': 'votre@email.com',
+                'contact.formProjectType': 'Type de projet',
+                'contact.projectType1': 'Data Science / Machine Learning',
+                'contact.projectType2': 'Analyse Financière',
+                'contact.projectType3': 'Business Intelligence',
+                'contact.projectType4': 'Consulting',
+                'contact.projectType5': 'Autre',
+                'contact.formMessage': 'Message',
+                'contact.formMessagePlaceholder': 'Décrivez votre projet...',
+                'contact.formSubmit': 'Envoyer le message',
+                
+                // Footer
+                'footer.subtitle': 'Data Scientist Senior & Analyste Financier',
+                'footer.description': 'Expert en IA, Machine Learning et stratégie financière avec 15+ ans d\'expérience. Spécialiste en transformation digitale et solutions data-driven.'
+            },
+            en: {
+                // Navigation
+                'nav.home': 'Home',
+                'nav.about': 'About',
+                'nav.experience': 'Experience',
+                'nav.projects': 'Projects',
+                'nav.skills': 'Skills',
+                'nav.contact': 'Contact',
+                
+                // Hero Section
+                'hero.title': 'Senior Data Scientist & Financial Analyst',
+                'hero.description': '15+ years of experience combining advanced Data Science and Financial Strategy. Expert in translating complex business problems into scalable Python, SQL, and Machine Learning solutions.',
+                'hero.contactBtn': 'Contact Me',
+                'hero.githubBtn': 'View GitHub',
+                
+                // Stats
+                'stats.years': 'Years of experience',
+                'stats.solutions': 'AI/ML Solutions',
+                'stats.value': 'Value discovered',
+                'stats.automation': 'Financial automation',
+                
+                // Profile
+                'profile.available': 'Available for projects',
+                
+                // About Section
+                'about.title': 'About',
+                'about.subtitle': 'Expert in Data Science and Financial Analysis with dual technical and strategic skills',
+                'about.dataScience': 'Data Science & AI',
+                'about.programming': 'Programming',
+                'about.finance': 'Finance & Management',
+                
+                // Skills
+                'skills.ml': 'Machine Learning',
+                'skills.dl': 'Deep Learning',
+                'skills.nlp': 'NLP & LLMs',
+                'skills.cv': 'Computer Vision',
+                'skills.genai': 'Generative AI',
+                'skills.python': 'Python (Expert)',
+                'skills.sql': 'SQL (Advanced)',
+                'skills.r': 'R (Intermediate)',
+                'skills.docker': 'Docker & Git',
+                'skills.api': 'REST APIs',
+                'skills.capex': 'CAPEX Budgeting',
+                'skills.roi': 'ROI Analysis',
+                'skills.econometrics': 'Econometrics',
+                'skills.audit': 'Audit & Compliance',
+                'skills.erp': 'ERP Sage X3',
+                
+                // Experience
+                'experience.title': 'Professional',
+                'experience.subtitle': '15+ years of expertise in Data Science and Financial Strategy',
+                'experience.currentRole': 'Freelance Data Scientist & AI/Machine Learning Engineer',
+                'experience.current': 'Current',
+                'experience.currentDesc': 'Building end-to-end data science solutions for international clients in energy, mining, and logistics.',
+                'experience.achievement1': 'Design and deployment of 50+ AI/ML solutions including cyclone trajectory prediction',
+                'experience.achievement2': 'Development of AI-powered mining cartography revealing $1.247B in undeclared resources',
+                'experience.achievement3': 'Creation of offline medical chatbots using traditional medicine databases',
+                'experience.achievement4': 'Financial automation reducing manual error by 100%',
+                'experience.role1': 'Associate Manager',
+                'experience.role1Desc': 'Strategic development leadership and financial oversight.',
+                'experience.role2': 'Grants & Contracts Coordinator',
+                'experience.role2Desc': 'Management of multi-million dollar funding portfolios and strict compliance.',
+                'experience.role3': 'CAPEX Budget Controller',
+                'experience.role3Desc': 'Supervision of investment budgets and financial analysis.',
+                
+                // Projects
+                'projects.title': 'Key',
+                'projects.subtitle': 'Significant achievements with measurable impact',
+                'projects.project1.title': 'AI Mining Cartography',
+                'projects.project1.description': 'Use of satellite imagery and geospatial data to map mineral resources with an estimated value of $1.247 billion.',
+                'projects.project2.title': 'Cyclone Prediction',
+                'projects.project2.description': 'Development of time-series models to predict trajectory and damage assessment for the Indian Ocean region.',
+                'projects.project3.title': 'Energy Management Platform',
+                'projects.project3.description': 'Creation of a real-time monitoring tool for energy production/consumption on Réunion Island using Python and IoT data.',
+                'projects.project4.title': 'Bridgestone Industrial Project',
+                'projects.project4.description': 'Research with a Canadian tire manufacturing company aimed at minimizing energy loss and reducing carbon emissions through steam reuse.',
+                'projects.allProjectsBtn': 'View all projects (31+)',
+                
+                // All Projects
+                'allProjects.title': 'All my',
+                'allProjects.subtitle': '31+ projects in Data Science, Financial Analysis and Development',
+                'allProjects.backBtn': 'Back to main projects',
+                
+                // Skills
+                'skills.title': 'Detailed',
+                'skills.subtitle': 'Complete mastery of Data Science technologies and financial tools',
+                'skills.technical': 'Languages & Technologies',
+                'skills.tools': 'Tools & Platforms',
+                
+                // Contact
+                'contact.title': 'Contact',
+                'contact.subtitle': 'Let\'s discuss your Data Science or financial analysis project',
+                'contact.infoTitle': 'Contact information',
+                'contact.email': 'Email',
+                'contact.phone': 'Phone',
+                'contact.location': 'Location',
+                'contact.links': 'Professional links',
+                'contact.available': 'Available for freelance missions and full-time projects',
+                'contact.formTitle': 'Send a message',
+                'contact.formName': 'Full name',
+                'contact.formNamePlaceholder': 'Your name',
+                'contact.formEmail': 'Email',
+                'contact.formEmailPlaceholder': 'your@email.com',
+                'contact.formProjectType': 'Project type',
+                'contact.projectType1': 'Data Science / Machine Learning',
+                'contact.projectType2': 'Financial Analysis',
+                'contact.projectType3': 'Business Intelligence',
+                'contact.projectType4': 'Consulting',
+                'contact.projectType5': 'Other',
+                'contact.formMessage': 'Message',
+                'contact.formMessagePlaceholder': 'Describe your project...',
+                'contact.formSubmit': 'Send message',
+                
+                // Footer
+                'footer.subtitle': 'Senior Data Scientist & Financial Analyst',
+                'footer.description': 'Expert in AI, Machine Learning and financial strategy with 15+ years of experience. Specialist in digital transformation and data-driven solutions.'
+            }
+        };
+
+        // Current language
+        let currentLang = 'fr';
+
+        // Function to update text content
+        function updateLanguage(lang) {
+            currentLang = lang;
+            document.querySelectorAll('[data-key]').forEach(element => {
+                const key = element.getAttribute('data-key');
+                if (translations[lang] && translations[lang][key]) {
+                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                        element.setAttribute('placeholder', translations[lang][key]);
+                    } else if (element.tagName === 'OPTION') {
+                        element.textContent = translations[lang][key];
+                    } else {
+                        element.textContent = translations[lang][key];
+                    }
+                }
+            });
+            
+            // Update typing roles based on language
+            updateTypingRoles(lang);
+            
+            // Save language preference
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        // Function to update typing roles based on language
+        function updateTypingRoles(lang) {
+            const roles = {
+                fr: [
+                    'Data Scientist Senior & Financial Analyst',
+                    'Expert en IA & Machine Learning',
+                    'Spécialiste Data Science & Big Data',
+                    'Consultant en Stratégie Financière',
+                    'Développeur Python & SQL Avancé'
+                ],
+                en: [
+                    'Senior Data Scientist & Financial Analyst',
+                    'Expert in AI & Machine Learning',
+                    'Data Science & Big Data Specialist',
+                    'Financial Strategy Consultant',
+                    'Advanced Python & SQL Developer'
+                ]
+            };
+            
+            // Update roles array for typing effect
+            typingRoles = roles[lang];
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('animate-slide-down');
+                });
+            }
+            
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (mobileMenu && mobileMenuBtn && !mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+            
+            // Language selector
+            const languageSelector = document.getElementById('languageSelector');
+            const languageSelectorMobile = document.getElementById('languageSelectorMobile');
+            
+            // Load saved language preference
+            const savedLang = localStorage.getItem('preferredLanguage') || 'fr';
+            if (languageSelector) languageSelector.value = savedLang;
+            if (languageSelectorMobile) languageSelectorMobile.value = savedLang;
+            updateLanguage(savedLang);
+            
+            if (languageSelector) {
+                languageSelector.addEventListener('change', (e) => {
+                    updateLanguage(e.target.value);
+                    if (languageSelectorMobile) languageSelectorMobile.value = e.target.value;
+                });
+            }
+            
+            if (languageSelectorMobile) {
+                languageSelectorMobile.addEventListener('change', (e) => {
+                    updateLanguage(e.target.value);
+                    if (languageSelector) languageSelector.value = e.target.value;
+                });
+            }
+            
+            // Typing effect
+            let typingRoles = [
+                'Data Scientist Senior & Financial Analyst',
+                'Expert en IA & Machine Learning',
+                'Spécialiste Data Science & Big Data',
+                'Consultant en Stratégie Financière',
+                'Développeur Python & SQL Avancé'
+            ];
+            
+            let roleIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            
+            function typeEffect() {
+                const currentRole = typingRoles[roleIndex];
+                const typingElement = document.getElementById('typingText');
+                
+                if (!typingElement) return;
+                
+                if (!isDeleting) {
+                    typingElement.textContent = currentRole.substring(0, charIndex + 1);
+                    charIndex++;
+                    
+                    if (charIndex === currentRole.length) {
+                        isDeleting = true;
+                        setTimeout(typeEffect, 2000);
+                        return;
+                    }
+                } else {
+                    typingElement.textContent = currentRole.substring(0, charIndex - 1);
+                    charIndex--;
+                    
+                    if (charIndex === 0) {
+                        isDeleting = false;
+                        roleIndex = (roleIndex + 1) % typingRoles.length;
+                    }
+                }
+                
+                setTimeout(typeEffect, isDeleting ? 50 : 100);
+            }
+            
+            typeEffect();
+            
+            // Smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                        // Close mobile menu
+                        if (mobileMenu) mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+            
+            // Skills animation on scroll
+            const skillBars = document.querySelectorAll('.skill-progress');
+            const skillObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const progressBar = entry.target;
+                        const progress = progressBar.getAttribute('data-progress');
+                        
+                        setTimeout(() => {
+                            progressBar.style.setProperty('--progress-width', progress + '%');
+                            progressBar.classList.add('animated');
+                        }, 300);
+                    }
+                });
+            }, {
+                threshold: 0.3
+            });
+            
+            skillBars.forEach(bar => {
+                skillObserver.observe(bar);
+            });
+            
+            // Scroll animation for elements
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            const elementObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -100px 0px'
+            });
+            
+            animatedElements.forEach(el => {
+                elementObserver.observe(el);
+            });
+            
+            // Back to top button
+            const backToTopBtn = document.getElementById('backToTop');
+            
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.classList.remove('hidden');
+                } else {
+                    backToTopBtn.classList.add('hidden');
+                }
+                
+                // Header background on scroll
+                const header = document.querySelector('nav');
+                if (window.scrollY > 50) {
+                    header.classList.add('bg-dark/95');
+                } else {
+                    header.classList.remove('bg-dark/95');
+                }
+            });
+            
+            if (backToTopBtn) {
+                backToTopBtn.addEventListener('click', () => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+            
+            // Contact form submission
+            const contactForm = document.getElementById('contactForm');
+            const formMessage = document.getElementById('formMessage');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    const formData = new FormData(this);
+                    const submitButton = this.querySelector('button[type="submit"]');
+                    const originalText = submitButton.innerHTML;
+                    
+                    submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-3"></i>' + 
+                        (currentLang === 'fr' ? 'Envoi en cours...' : 'Sending...');
+                    submitButton.disabled = true;
+                    
+                    try {
+                        // Simulate API call
+                        await new Promise(resolve => setTimeout(resolve, 1500));
+                        
+                        formMessage.textContent = currentLang === 'fr' 
+                            ? '✅ Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.'
+                            : '✅ Message sent successfully! I will respond as soon as possible.';
+                        formMessage.className = 'mt-6 p-5 rounded-lg bg-green-900/30 text-green-400 border border-green-800';
+                        formMessage.classList.remove('hidden');
+                        
+                        this.reset();
+                        
+                        setTimeout(() => {
+                            formMessage.classList.add('hidden');
+                        }, 5000);
+                        
+                    } catch (error) {
+                        formMessage.textContent = currentLang === 'fr'
+                            ? '❌ Erreur lors de l\'envoi. Veuillez réessayer ou me contacter directement par email.'
+                            : '❌ Error sending message. Please try again or contact me directly by email.';
+                        formMessage.className = 'mt-6 p-5 rounded-lg bg-red-900/30 text-red-400 border border-red-800';
+                        formMessage.classList.remove('hidden');
+                    } finally {
+                        submitButton.innerHTML = originalText;
+                        submitButton.disabled = false;
+                    }
+                });
+            }
+            
+            // Load all projects dynamically
+            function loadAllProjects() {
+                const projects = [
+                    // Data Science & AI Projects
+                    {
+                        title: "POPULATIONMDGSTAT",
+                        description: currentLang === 'fr' 
+                            ? "Étude statistique approfondie de la population malgache avec analyses démographiques avancées."
+                            : "In-depth statistical study of the Malagasy population with advanced demographic analysis.",
+                        tags: ["Python", "Pandas", "Statistics", "Data Analysis"],
+                        category: "data-science",
+                        icon: "fas fa-chart-bar"
+                    },
+                    {
+                        title: "EVOLUTION-DE-POP",
+                        description: currentLang === 'fr'
+                            ? "Analyse de l'évolution démographique avec modèles prédictifs et visualisations interactives."
+                            : "Demographic evolution analysis with predictive models and interactive visualizations.",
+                        tags: ["Time Series", "Forecasting", "Plotly"],
+                        category: "data-science",
+                        icon: "fas fa-chart-line"
+                    },
+                    {
+                        title: "Housepredict",
+                        description: currentLang === 'fr'
+                            ? "Modèle de prédiction immobilière avec Machine Learning pour estimation de prix."
+                            : "Real estate price prediction model using Machine Learning.",
+                        tags: ["Machine Learning", "Scikit-learn", "Regression"],
+                        category: "data-science",
+                        icon: "fas fa-home"
+                    },
+                    {
+                        title: "Amazon-Recommender-System",
+                        description: currentLang === 'fr'
+                            ? "Système de recommandation e-commerce basé sur le filtrage collaboratif."
+                            : "E-commerce recommendation system based on collaborative filtering.",
+                        tags: ["Recommendation", "Collaborative Filtering", "E-commerce"],
+                        category: "data-science",
+                        icon: "fas fa-shopping-cart"
+                    },
+                    {
+                        title: "gelabotmedic",
+                        description: currentLang === 'fr'
+                            ? "Un chatbot médical nommé GelaBot, développé en Python, pour fournir des conseils ou diagnostics basés sur IA."
+                            : "A medical chatbot named GelaBot, developed in Python, to provide AI-based advice or diagnosis.",
+                        tags: ["NLP", "Chatbot", "Healthcare", "Python"],
+                        category: "data-science",
+                        icon: "fas fa-robot"
+                    },
+                    {
+                        title: "Diagclinique",
+                        description: currentLang === 'fr'
+                            ? "Outil de diagnostic clinique en Python, aidant à l'évaluation médicale basée sur des symptômes et données."
+                            : "Clinical diagnostic tool in Python, assisting in medical evaluation based on symptoms and data.",
+                        tags: ["Healthcare", "Diagnosis", "Python"],
+                        category: "data-science",
+                        icon: "fas fa-stethoscope"
+                    },
+                    {
+                        title: "Lewishamilton",
+                        description: currentLang === 'fr'
+                            ? "Projet d'analyse de données F1 avec Lewis Hamilton, utilisant des notebooks Jupyter."
+                            : "F1 data analysis project with Lewis Hamilton, using Jupyter notebooks.",
+                        tags: ["F1", "Data Analysis", "Jupyter"],
+                        category: "data-science",
+                        icon: "fas fa-racing-car"
+                    },
+                    
+                    // Financial Analysis Projects
+                    {
+                        title: "MacdoFinancialStrategicanalysis",
+                        description: currentLang === 'fr'
+                            ? "Analyse financière et stratégique de McDonald's, incluant bilans, ratios et plans stratégiques."
+                            : "Financial and strategic analysis of McDonald's, including balance sheets, ratios and strategic plans.",
+                        tags: ["Financial Analysis", "Strategy", "Business"],
+                        category: "finance",
+                        icon: "fas fa-chart-pie"
+                    },
+                    {
+                        title: "Strategic-Report-Healthcare-Sector",
+                        description: currentLang === 'fr'
+                            ? "Rapport stratégique sur le secteur de la santé, couvrant analyses, tendances et recommandations."
+                            : "Strategic report on the healthcare sector, covering analysis, trends and recommendations.",
+                        tags: ["Healthcare", "Strategy", "Report"],
+                        category: "finance",
+                        icon: "fas fa-file-medical"
+                    },
+                    {
+                        title: "RATIOS-FINANCIER",
+                        description: currentLang === 'fr'
+                            ? "Outil pour calculer et analyser les ratios financiers, développé en Python."
+                            : "Tool for calculating and analyzing financial ratios, developed in Python.",
+                        tags: ["Financial Ratios", "Python", "Analysis"],
+                        category: "finance",
+                        icon: "fas fa-calculator"
+                    },
+                    {
+                        title: "ExcisCurrencyRisk",
+                        description: currentLang === 'fr'
+                            ? "Outil pour gérer les risques de change Excis, incluant des modèles de prédiction et d'analyse."
+                            : "Tool to manage Excis currency risk, including prediction and analysis models.",
+                        tags: ["Currency Risk", "Finance", "Python"],
+                        category: "finance",
+                        icon: "fas fa-money-bill-wave"
+                    },
+                    {
+                        title: "financial-management-app",
+                        description: currentLang === 'fr'
+                            ? "Application de gestion financière en Python, permettant de suivre les dépenses, budgets et rapports financiers."
+                            : "Financial management application in Python, allowing tracking of expenses, budgets and financial reports.",
+                        tags: ["Finance", "Python", "Management"],
+                        category: "finance",
+                        icon: "fas fa-wallet"
+                    },
+                    
+                    // Energy & Industrial Projects
+                    {
+                        title: "wmagicup",
+                        description: currentLang === 'fr'
+                            ? "Logiciel de prévention de coupure dans l'île de la Réunion, pour anticiper les interruptions d'électricité."
+                            : "Power outage prevention software in Réunion Island, to anticipate electricity interruptions.",
+                        tags: ["Energy", "Prediction", "Python"],
+                        category: "energy",
+                        icon: "fas fa-bolt"
+                    },
+                    {
+                        title: "ENERMONITO",
+                        description: currentLang === 'fr'
+                            ? "Application de monitoring énergétique pour EDF La Réunion avec suivi en temps réel."
+                            : "Energy monitoring application for EDF La Réunion with real-time tracking.",
+                        tags: ["Energy", "Monitoring", "Real-time"],
+                        category: "energy",
+                        icon: "fas fa-charging-station"
+                    },
+                    {
+                        title: "Bridgestone Projects",
+                        description: currentLang === 'fr'
+                            ? "Suite de projets pour Bridgestone Canada: optimisation énergétique et réduction des émissions carbone."
+                            : "Suite of projects for Bridgestone Canada: energy optimization and carbon emission reduction.",
+                        tags: ["Industrial AI", "Energy Optimization", "Carbon Reduction"],
+                        category: "energy",
+                        icon: "fas fa-industry"
+                    },
+                    
+                    // Geospatial & Mining Projects
+                    {
+                        title: "loss-throug-minescontractin-madagascar",
+                        description: currentLang === 'fr'
+                            ? "Étude sur les pertes liées aux contrats miniers à Madagascar, avec analyses économiques et cas d'étude."
+                            : "Study on losses related to mining contracts in Madagascar, with economic analysis and case studies.",
+                        tags: ["Mining", "Economic Analysis", "Madagascar"],
+                        category: "mining",
+                        icon: "fas fa-mountain"
+                    },
+                    {
+                        title: "Boudhistgem-and-mines",
+                        description: currentLang === 'fr'
+                            ? "Projet explorant les liens entre les gemmes bouddhistes et les mines, documentation culturelle et historique."
+                            : "Project exploring links between Buddhist gems and mines, cultural and historical documentation.",
+                        tags: ["Gems", "Cultural Study", "Mining"],
+                        category: "mining",
+                        icon: "fas fa-gem"
+                    },
+                    {
+                        title: "geopoli",
+                        description: currentLang === 'fr'
+                            ? "Application Python pour l'analyse géopolitique, incluant cartes, données et simulations."
+                            : "Python application for geopolitical analysis, including maps, data and simulations.",
+                        tags: ["Geopolitics", "Python", "Analysis"],
+                        category: "mining",
+                        icon: "fas fa-globe-africa"
+                    },
+                    
+                    // Other Projects
+                    {
+                        title: "DocRecherche",
+                        description: currentLang === 'fr'
+                            ? "Projet de documentation ou de recherche présenté sous forme de pages HTML statiques."
+                            : "Documentation or research project presented as static HTML pages.",
+                        tags: ["Documentation", "Research", "HTML"],
+                        category: "other",
+                        icon: "fas fa-book"
+                    },
+                    {
+                        title: "B2D",
+                        description: currentLang === 'fr'
+                            ? "Modèle de repository en HTML pour des transitions business to digital (B2D)."
+                            : "HTML repository template for business to digital (B2D) transitions.",
+                        tags: ["Business", "Digital", "HTML"],
+                        category: "other",
+                        icon: "fas fa-business-time"
+                    },
+                    {
+                        title: "excis-dashboard",
+                        description: currentLang === 'fr'
+                            ? "Tableau de bord Excis en JavaScript, pour visualiser des données financières ou opérationnelles."
+                            : "Excis dashboard in JavaScript, for visualizing financial or operational data.",
+                        tags: ["Dashboard", "JavaScript", "Data Viz"],
+                        category: "other",
+                        icon: "fas fa-tachometer-alt"
+                    },
+                    {
+                        title: "deviabtp",
+                        description: currentLang === 'fr'
+                            ? "Application pour la déviation dans le BTP, pour la gestion de projets de construction."
+                            : "Application for deviations in construction, for construction project management.",
+                        tags: ["Construction", "BTP", "Python"],
+                        category: "other",
+                        icon: "fas fa-hard-hat"
+                    },
+                    {
+                        title: "HELPNET",
+                        description: currentLang === 'fr'
+                            ? "Réseau d'aide social avec chatbot IA pour assistance médicale et sociale."
+                            : "Social help network with AI chatbot for medical and social assistance.",
+                        tags: ["Social", "Chatbot", "Healthcare"],
+                        category: "other",
+                        icon: "fas fa-hands-helping"
+                    },
+                    {
+                        title: "helpnet-chat-server",
+                        description: currentLang === 'fr'
+                            ? "Serveur de chat pour le réseau Helpnet, implémenté avec des éléments HTML et JavaScript."
+                            : "Chat server for the Helpnet network, implemented with HTML and JavaScript elements.",
+                        tags: ["Chat", "Server", "JavaScript"],
+                        category: "other",
+                        icon: "fas fa-comments"
+                    },
+                    {
+                        title: "YAMAHA-team-motogp",
+                        description: currentLang === 'fr'
+                            ? "Modèle pour l'équipe Yamaha MotoGP, pour la gestion d'équipe ou l'analyse de courses."
+                            : "Model for the Yamaha MotoGP team, for team management or race analysis.",
+                        tags: ["MotoGP", "Yamaha", "Analysis"],
+                        category: "other",
+                        icon: "fas fa-motorcycle"
+                    }
+                ];
+
+                const container = document.getElementById('allProjectsGrid');
+                if (!container) return;
+
+                container.innerHTML = '';
+                
+                projects.forEach(project => {
+                    const projectCard = document.createElement('div');
+                    projectCard.className = 'project-card glass-card overflow-hidden';
+                    projectCard.innerHTML = `
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mr-4">
+                                    <i class="${project.icon} text-white text-xl"></i>
+                                </div>
+                                <h3 class="text-xl font-bold">${project.title}</h3>
+                            </div>
+                            <p class="text-gray-400 mb-4 text-sm">${project.description}</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                ${project.tags.map(tag => `<span class="badge badge-primary text-xs">${tag}</span>`).join('')}
+                            </div>
+                            <div class="text-xs text-gray-500">
+                                <i class="fas fa-folder mr-1"></i>
+                                ${project.category.toUpperCase()}
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(projectCard);
+                });
+            }
+
+            // Navigation between project sections
+            document.getElementById('seeAllProjects')?.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('projects').style.display = 'none';
+                document.getElementById('all-projects').style.display = 'block';
+                loadAllProjects();
+                window.scrollTo({
+                    top: document.getElementById('all-projects').offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+
+            document.getElementById('backToMainProjects')?.addEventListener('click', function() {
+                document.getElementById('all-projects').style.display = 'none';
+                document.getElementById('projects').style.display = 'block';
+                window.scrollTo({
+                    top: document.getElementById('projects').offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Initialize AOS animations
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100
+            });
+        });
+    </script>
+</body>
+</html>
